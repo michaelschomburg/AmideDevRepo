@@ -1,0 +1,204 @@
+<div id="coming-soon-page">
+  <div class="timline">
+    {% if section.settings.home_block_title_7 != blank %}
+    <h2>
+      {% if settings.enable_multilang %}
+      <span class="lang1">{{ section.settings.home_block_title_7 | split: '|' | first }}</span>
+      <span class="lang2">{{ section.settings.home_block_title_7 | split: '|' | last }}</span>
+      {% else %}
+      {{ section.settings.home_block_title_7 | split: '|' | first }}
+      {% endif %}
+    </h2>
+    {% endif %}
+    {% if section.settings.home_block_sub_title_7 != blank %}
+    <p>
+      {% if settings.enable_multilang %}
+      <span class="lang1">{{ section.settings.home_block_sub_title_7 | split: '|' | first }}</span>
+      <span class="lang2">{{ section.settings.home_block_sub_title_7 | split: '|' | last }}</span>
+      {% else %}
+      {{ section.settings.home_block_sub_title_7 | split: '|' | first }}
+      {% endif %}
+    </p>
+    {% endif %}
+    {% if section.settings.home_block_title_countdown != blank %}
+    <h3>
+      {% if settings.enable_multilang %}
+      <span class="lang1">{{ section.settings.home_block_title_countdown | split: '|' | first }}</span>
+      <span class="lang2">{{ section.settings.home_block_title_countdown | split: '|' | last }}</span>
+      {% else %}
+      {{ section.settings.home_block_title_countdown | split: '|' | first }}
+      {% endif %}
+    </h3>
+    {% endif %}
+    <div id="cntdwn" class="timeline-block"></div>
+    <script>
+      //<![CDATA[
+      jQuery(document).ready(function($){
+        $(".timeline-block").lofCountDown({
+          TargetDate:"{{ section.settings.home_block_countdown_7 }}",
+
+          DisplayFormat:"<div class='day'><span class='no'>%%D%%</span><span class='text'>days</span></div><div class='hours'><span class='no'>%%H%%</span><span class='text'>hours</span></div><div class='min'><span class='no'>%%M%%</span><span class='text'>min</span></div><div class='second'><span class='no'>%%S%%</span><span class='text'>sec</span></div>",
+          FinishMessage: "Expired"
+        });
+      });
+      //]]>
+    </script>
+    {{ 'jquery.countdown.js' | asset_url | script_tag }}
+      {% if  section.settings.footer_column_3_title != blank %}
+  <h3 class="module-title">{{ section.settings.footer_column_3_title }}</h3>
+  {% endif %}
+  <div class="content custom-fotter-top">
+    <div class="footer-icon-share">
+      {% if section.settings.footer_column_4_icon_1 != blank %}
+      <a href="{{ section.settings.footer_column_4_icon_link_1 }}">
+        <i class="{{ section.settings.footer_column_4_icon_1 }}"></i>
+      </a>
+      {% endif %}
+      {% if section.settings.footer_column_4_icon_2 != blank %}
+      <a href="{{ section.settings.footer_column_4_icon_link_2 }}">
+        <i class="{{ section.settings.footer_column_4_icon_2 }}"></i>
+      </a>
+      {% endif %}
+      {% if section.settings.footer_column_4_icon_3 != blank %}
+      <a href="{{ section.settings.footer_column_4_icon_link_3 }}">
+        <i class="{{ section.settings.footer_column_4_icon_3 }}"></i>
+      </a>
+      {% endif %}
+      {% if section.settings.footer_column_4_icon_4 != blank %}
+      <a href="{{ section.settings.footer_column_4_icon_link_4 }}">
+        <i class="{{ section.settings.footer_column_4_icon_4 }}"></i>
+      </a>
+      {% endif %}
+      {% if section.settings.footer_column_4_icon_5 != blank %}
+      <a href="{{ section.settings.footer_column_4_icon_link_5 }}">
+        <i class="{{ section.settings.footer_column_4_icon_5 }}"></i>
+      </a>
+      {% endif %}
+    </div>
+  </div>
+  </div>
+
+
+</div>
+<script>
+  jQuery(".main-content").addClass("coming-soon-page");
+</script>
+{% schema %}
+  {
+    "name": "Coming Soon",
+    "settings": [
+		
+	  {
+                "type": "image_picker",
+                "id": "block_home_image",
+                "label": "Image"
+              },
+              {
+                "type": "text",
+                "id": "home_block_title_7",
+                "label": "Heading",
+                "default": "Deal Of The Day"
+              },
+              {
+                "type": "textarea",
+                "id": "home_block_sub_title_7",
+                "label": "Subheading",
+                "default": "Subheading"
+              },
+              {
+                "type": "text",
+                "id": "home_block_title_countdown",
+                "label": "Title Countdown",
+                "default": "NEW STORE WE BE LAUNCHED IN:"
+              },
+              {
+                "type": "text",
+                "id": "home_block_countdown_7",
+                "label": "Countdown",
+                "default": "2017\/12\/31 10:30:00"
+              },
+
+ {
+        "type": "header",
+        "content": "Icon share"
+      },
+          {
+            "type": "text",
+            "id": "footer_column_3_title",
+            "label": "Social Title"
+          },
+          {
+            "type": "text",
+            "id": "footer_column_4_icon_1",
+            "label": "icon 1",
+            "default": "cs-font clever-icon-facebook",
+            "info": "add class of font icon"
+          },
+          {
+            "type": "text",
+            "id": "footer_column_4_icon_link_1",
+            "label": "Link Icon 1",
+            "default": "#"
+          },
+          {
+            "type": "text",
+            "id": "footer_column_4_icon_2",
+            "label": "icon 2",
+            "default": "cs-font clever-icon-twitter",
+            "info": "add class of font icon"
+          },
+          {
+            "type": "text",
+            "id": "footer_column_4_icon_link_2",
+            "label": "Link Icon 2",
+            "default": "#"
+          },
+          {
+            "type": "text",
+            "id": "footer_column_4_icon_3",
+            "label": "icon 3",
+            "default": "cs-font clever-icon-pinterest",
+            "info": "add class of font icon"
+          },
+          {
+            "type": "text",
+            "id": "footer_column_4_icon_link_3",
+            "label": "Link Icon 3",
+            "default": "#"
+          },
+          {
+            "type": "text",
+            "id": "footer_column_4_icon_4",
+            "label": "icon 4",
+            "default": "cs-font clever-icon-googleplus",
+            "info": "add class of font icon"
+          },
+          {
+            "type": "text",
+            "id": "footer_column_4_icon_link_4",
+            "label": "Link Icon 4",
+            "default": "#"
+          },
+          {
+            "type": "text",
+            "id": "footer_column_4_icon_5",
+            "label": "icon 5",
+            "default": "cs-font clever-icon-youtube",
+            "info": "add class of font icon"
+          },
+          {
+            "type": "text",
+            "id": "footer_column_4_icon_link_5",
+            "label": "Link Icon 5",
+            "default": "#"
+          }
+	
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

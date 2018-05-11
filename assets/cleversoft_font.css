@@ -1,0 +1,846 @@
+@font-face {
+  font-family: 'cleversoft';
+  src:  url('cleversoft.eot?1z1tcg');
+  src:  url('cleversoft.eot?1z1tcg#iefix') format('embedded-opentype'),
+    url('cleversoft.woff2?1z1tcg') format('woff2'),
+    url('cleversoft.ttf?1z1tcg') format('truetype'),
+    url('cleversoft.woff?1z1tcg') format('woff'),
+    url('cleversoft.svg?1z1tcg#cleversoft') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cs-font {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cleversoft' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.clever-icon-arrow-upcs-font:before {
+  content: "\c273";
+}
+.clever-icon-arrow-downcs-font:before {
+  content: "\c272";
+}
+.clever-icon-arrow-left-4cs-font:before {
+  content: "\c271";
+}
+.clever-icon-arrow-right-4cs-font:before {
+  content: "\c270";
+}
+.clever-icon-refresh-2cs-font:before {
+  content: "\c269";
+}
+.clever-icon-refresh-1cs-font:before {
+  content: "\c268";
+}
+.clever-icon-quote-2cs-font:before {
+  content: "\c267";
+}
+.clever-icon-pausecs-font:before {
+  content: "\c266";
+}
+.clever-icon-checkcs-font:before {
+  content: "\c265";
+}
+.clever-icon-caret-downcs-font:before {
+  content: "\c264";
+}
+.clever-icon-caret-leftcs-font:before {
+  content: "\c263";
+}
+.clever-icon-caret-rightcs-font:before {
+  content: "\c262";
+}
+.clever-icon-caret-upcs-font:before {
+  content: "\c261";
+}
+.clever-icon-caret-square-dowcs-font:before {
+  content: "\c260";
+}
+.clever-icon-caret-square-leftcs-font:before {
+  content: "\c259";
+}
+.clever-icon-caret-square-rightcs-font:before {
+  content: "\c258";
+}
+.clever-icon-caret-square-upcs-font:before {
+  content: "\c257";
+}
+.clever-icon-check-circle-ocs-font:before {
+  content: "\c256";
+}
+.clever-icon-check-circlecs-font:before {
+  content: "\c255";
+}
+.clever-icon-check-square-ocs-font:before {
+  content: "\c254";
+}
+.clever-icon-check-squarecs-font:before {
+  content: "\c253";
+}
+.clever-icon-circle-ocs-font:before {
+  content: "\c252";
+}
+.clever-icon-circlecs-font:before {
+  content: "\c251";
+}
+.clever-icon-dribbblecs-font:before {
+  content: "\c250";
+}
+.clever-icon-flickrcs-font:before {
+  content: "\c249";
+}
+.clever-icon-foursquarecs-font:before {
+  content: "\c248";
+}
+.clever-icon-githubcs-font:before {
+  content: "\c247";
+}
+.clever-icon-linkedincs-font:before {
+  content: "\c246";
+}
+.clever-icon-rsscs-font:before {
+  content: "\c245";
+}
+.clever-icon-square-ocs-font:before {
+  content: "\c244";
+}
+.clever-icon-squarecs-font:before {
+  content: "\c243";
+}
+.clever-icon-star-ocs-font:before {
+  content: "\c242";
+}
+.clever-icon-starcs-font:before {
+  content: "\c241";
+}
+.clever-icon-tumblrcs-font:before {
+  content: "\c240";
+}
+.clever-icon-xingcs-font:before {
+  content: "\c239";
+}
+.clever-icon-twittercs-font:before {
+  content: "\c238";
+}
+.clever-icon-cart-16cs-font:before {
+  content: "\c237";
+}
+.clever-icon-heartcs-font:before {
+  content: "\c236";
+}
+.clever-icon-quickview-5cs-font:before {
+  content: "\c235";
+}
+.clever-icon-facebookcs-font:before {
+  content: "\c234";
+}
+.clever-icon-googlepluscs-font:before {
+  content: "\2201";
+}
+.clever-icon-instagramcs-font:before {
+  content: "\c232";
+}
+.clever-icon-pinterestcs-font:before {
+  content: "\c231";
+}
+.clever-icon-skypecs-font:before {
+  content: "\c230";
+}
+.clever-icon-vimeocs-font:before {
+  content: "\c229";
+}
+.clever-icon-youtube-1cs-font:before {
+  content: "\2202";
+}
+.clever-icon-award-1cs-font:before {
+  content: "\c227";
+}
+.clever-icon-clock-1cs-font:before {
+  content: "\c226";
+}
+.clever-icon-three-dotscs-font:before {
+  content: "\c225";
+}
+.clever-icon-share-2cs-font:before {
+  content: "\c224";
+}
+.clever-icon-buildingcs-font:before {
+  content: "\c223";
+}
+.clever-icon-faucetcs-font:before {
+  content: "\c222";
+}
+.clever-icon-flowercs-font:before {
+  content: "\c221";
+}
+.clever-icon-house-1cs-font:before {
+  content: "\c220";
+}
+.clever-icon-housecs-font:before {
+  content: "\c219";
+}
+.clever-icon-pinescs-font:before {
+  content: "\c218";
+}
+.clever-icon-plantcs-font:before {
+  content: "\c217";
+}
+.clever-icon-sprout-1cs-font:before {
+  content: "\c216";
+}
+.clever-icon-sproutcs-font:before {
+  content: "\c215";
+}
+.clever-icon-treescs-font:before {
+  content: "\c214";
+}
+.clever-icon-close-1cs-font:before {
+  content: "\c213";
+}
+.clever-icon-list-2cs-font:before {
+  content: "\c212";
+}
+.clever-icon-grid-5cs-font:before {
+  content: "\c211";
+}
+.clever-icon-menu-6cs-font:before {
+  content: "\c210";
+}
+.clever-icon-three-dots-ocs-font:before {
+  content: "\c209";
+}
+.clever-icon-list-1cs-font:before {
+  content: "\c208";
+}
+.clever-icon-menu-5cs-font:before {
+  content: "\c207";
+}
+.clever-icon-menu-4cs-font:before {
+  content: "\c206";
+}
+.clever-icon-heart-ocs-font:before {
+  content: "\c205";
+}
+.clever-icon-user-6cs-font:before {
+  content: "\c204";
+}
+.clever-icon-attachmentcs-font:before {
+  content: "\c203";
+}
+.clever-icon-bagcs-font:before {
+  content: "\c202";
+}
+.clever-icon-ballcs-font:before {
+  content: "\c201";
+}
+.clever-icon-batterycs-font:before {
+  content: "\c200";
+}
+.clever-icon-briefcasecs-font:before {
+  content: "\c199";
+}
+.clever-icon-carcs-font:before {
+  content: "\c198";
+}
+.clever-icon-cpu-2cs-font:before {
+  content: "\c197";
+}
+.clever-icon-cpu-1cs-font:before {
+  content: "\c196";
+}
+.clever-icon-dress-womancs-font:before {
+  content: "\c195";
+}
+.clever-icon-drill-toolcs-font:before {
+  content: "\c194";
+}
+.clever-icon-feeding-bottlecs-font:before {
+  content: "\c193";
+}
+.clever-icon-fruitcs-font:before {
+  content: "\c192";
+}
+.clever-icon-furniture-2cs-font:before {
+  content: "\c191";
+}
+.clever-icon-furniture-1cs-font:before {
+  content: "\c190";
+}
+.clever-icon-shoes-woman-2cs-font:before {
+  content: "\c189";
+}
+.clever-icon-shoes-woman-1cs-font:before {
+  content: "\c188";
+}
+.clever-icon-horsecs-font:before {
+  content: "\c187";
+}
+.clever-icon-laptopcs-font:before {
+  content: "\c186";
+}
+.clever-icon-lipstickcs-font:before {
+  content: "\c185";
+}
+.clever-icon-ironcs-font:before {
+  content: "\c184";
+}
+.clever-icon-perfumecs-font:before {
+  content: "\c183";
+}
+.clever-icon-baby-toy-2cs-font:before {
+  content: "\c182";
+}
+.clever-icon-baby-toy-1cs-font:before {
+  content: "\c181";
+}
+.clever-icon-paint-rollercs-font:before {
+  content: "\c180";
+}
+.clever-icon-shirtcs-font:before {
+  content: "\c179";
+}
+.clever-icon-shoe-man-2cs-font:before {
+  content: "\c178";
+}
+.clever-icon-small-diamondcs-font:before {
+  content: "\c177";
+}
+.clever-icon-tivics-font:before {
+  content: "\c176";
+}
+.clever-icon-smartphonecs-font:before {
+  content: "\c175";
+}
+.clever-icon-lightscs-font:before {
+  content: "\c174";
+}
+.clever-icon-microwavecs-font:before {
+  content: "\c173";
+}
+.clever-icon-wardrobecs-font:before {
+  content: "\c172";
+}
+.clever-icon-washing-machinecs-font:before {
+  content: "\c171";
+}
+.clever-icon-watch-2cs-font:before {
+  content: "\c170";
+}
+.clever-icon-watch-1cs-font:before {
+  content: "\c169";
+}
+.clever-icon-slider-3cs-font:before {
+  content: "\c168";
+}
+.clever-icon-slider-2cs-font:before {
+  content: "\c167";
+}
+.clever-icon-slider-1cs-font:before {
+  content: "\c166";
+}
+.clever-icon-cart-15cs-font:before {
+  content: "\c165";
+}
+.clever-icon-cart-14cs-font:before {
+  content: "\c164";
+}
+.clever-icon-cart-13cs-font:before {
+  content: "\c163";
+}
+.clever-icon-cart-12cs-font:before {
+  content: "\c162";
+}
+.clever-icon-cart-11cs-font:before {
+  content: "\c161";
+}
+.clever-icon-cart-10cs-font:before {
+  content: "\c160";
+}
+.clever-icon-cart-9cs-font:before {
+  content: "\c159";
+}
+.clever-icon-cart-8cs-font:before {
+  content: "\c158";
+}
+.clever-icon-pause-1cs-font:before {
+  content: "\c157";
+}
+.clever-icon-arrow-leftcs-font:before {
+  content: "\c156";
+}
+.clever-icon-arrow-left-1cs-font:before {
+  content: "\c155";
+}
+.clever-icon-arrow-left-2cs-font:before {
+  content: "\c154";
+}
+.clever-icon-arrow-left-3cs-font:before {
+  content: "\c153";
+}
+.clever-icon-arrow-rightcs-font:before {
+  content: "\c152";
+}
+.clever-icon-arrow-right-1cs-font:before {
+  content: "\c151";
+}
+.clever-icon-arrow-right-2cs-font:before {
+  content: "\c150";
+}
+.clever-icon-arrow-right-3cs-font:before {
+  content: "\c149";
+}
+.clever-icon-plane-1cs-font:before {
+  content: "\c148";
+}
+.clever-icon-bag-black-fashion-modelcs-font:before {
+  content: "\c147";
+}
+.clever-icon-funnel-ocs-font:before {
+  content: "\c146";
+}
+.clever-icon-funnelcs-font:before {
+  content: "\c145";
+}
+.clever-icon-grid-1cs-font:before {
+  content: "\c144";
+}
+.clever-icon-contractcs-font:before {
+  content: "\c143";
+}
+.clever-icon-expandcs-font:before {
+  content: "\c142";
+}
+.clever-icon-cart-7cs-font:before {
+  content: "\c141";
+}
+.clever-icon-quote-1cs-font:before {
+  content: "\c140";
+}
+.clever-icon-next-arrow-1cs-font:before {
+  content: "\c139";
+}
+.clever-icon-prev-arrow-1cs-font:before {
+  content: "\c138";
+}
+.clever-icon-reloadcs-font:before {
+  content: "\c137";
+}
+.clever-icon-truckcs-font:before {
+  content: "\c136";
+}
+.clever-icon-walletcs-font:before {
+  content: "\c135";
+}
+.clever-icon-electric-1cs-font:before {
+  content: "\c134";
+}
+.clever-icon-electric-2cs-font:before {
+  content: "\c133";
+}
+.clever-icon-lockcs-font:before {
+  content: "\c132";
+}
+.clever-icon-share-1cs-font:before {
+  content: "\c131";
+}
+.clever-icon-check-boxcs-font:before {
+  content: "\c130";
+}
+.clever-icon-clockcs-font:before {
+  content: "\c129";
+}
+.clever-icon-analytics-laptopcs-font:before {
+  content: "\c128";
+}
+.clever-icon-code-designcs-font:before {
+  content: "\c127";
+}
+.clever-icon-competitive-chartcs-font:before {
+  content: "\c126";
+}
+.clever-icon-computer-monitor-and-cellphonecs-font:before {
+  content: "\c125";
+}
+.clever-icon-consulting-messagecs-font:before {
+  content: "\c124";
+}
+.clever-icon-creative-processcs-font:before {
+  content: "\c123";
+}
+.clever-icon-customer-reviewscs-font:before {
+  content: "\c122";
+}
+.clever-icon-data-visualizationcs-font:before {
+  content: "\c121";
+}
+.clever-icon-document-storagecs-font:before {
+  content: "\c120";
+}
+.clever-icon-download-arrowcs-font:before {
+  content: "\c119";
+}
+.clever-icon-download-cloudcs-font:before {
+  content: "\c118";
+}
+.clever-icon-email-envelopecs-font:before {
+  content: "\c117";
+}
+.clever-icon-file-sharingcs-font:before {
+  content: "\c116";
+}
+.clever-icon-finger-touch-screencs-font:before {
+  content: "\c115";
+}
+.clever-icon-horizontal-tablet-with-pencilcs-font:before {
+  content: "\c114";
+}
+.clever-icon-illustration-toolcs-font:before {
+  content: "\c113";
+}
+.clever-icon-keyboard-and-handscs-font:before {
+  content: "\c112";
+}
+.clever-icon-landscape-imagecs-font:before {
+  content: "\c111";
+}
+.clever-icon-layout-squarescs-font:before {
+  content: "\c110";
+}
+.clever-icon-mobile-app-developingcs-font:before {
+  content: "\c109";
+}
+.clever-icon-online-purchasecs-font:before {
+  content: "\c108";
+}
+.clever-icon-online-shoppingcs-font:before {
+  content: "\c107";
+}
+.clever-icon-online-videocs-font:before {
+  content: "\c106";
+}
+.clever-icon-optimization-clockcs-font:before {
+  content: "\c105";
+}
+.clever-icon-padlock-keycs-font:before {
+  content: "\c104";
+}
+.clever-icon-pc-monitorcs-font:before {
+  content: "\c103";
+}
+.clever-icon-place-localizercs-font:before {
+  content: "\c102";
+}
+.clever-icon-search-resultscs-font:before {
+  content: "\c101";
+}
+.clever-icon-search-toolcs-font:before {
+  content: "\c100";
+}
+.clever-icon-settings-toolscs-font:before {
+  content: "\c099";
+}
+.clever-icon-sharing-symbolcs-font:before {
+  content: "\c098";
+}
+.clever-icon-site-mapcs-font:before {
+  content: "\c097";
+}
+.clever-icon-smartphone-with-double-arrowscs-font:before {
+  content: "\c096";
+}
+.clever-icon-tablet-with-double-arrowcs-font:before {
+  content: "\c095";
+}
+.clever-icon-thin-expand-arrowscs-font:before {
+  content: "\c094";
+}
+.clever-icon-upload-informationcs-font:before {
+  content: "\c093";
+}
+.clever-icon-upload-to-webcs-font:before {
+  content: "\c092";
+}
+.clever-icon-volume-offcs-font:before {
+  content: "\c091";
+}
+.clever-icon-volume-oncs-font:before {
+  content: "\c090";
+}
+.clever-icon-web-codecs-font:before {
+  content: "\c089";
+}
+.clever-icon-web-development-1cs-font:before {
+  content: "\c088";
+}
+.clever-icon-web-development-2cs-font:before {
+  content: "\c087";
+}
+.clever-icon-web-developmentcs-font:before {
+  content: "\c086";
+}
+.clever-icon-web-homecs-font:before {
+  content: "\c085";
+}
+.clever-icon-web-linkcs-font:before {
+  content: "\c084";
+}
+.clever-icon-web-linkscs-font:before {
+  content: "\c083";
+}
+.clever-icon-website-protectioncs-font:before {
+  content: "\c082";
+}
+.clever-icon-work-teamcs-font:before {
+  content: "\c081";
+}
+.clever-icon-zoom-in-symbolcs-font:before {
+  content: "\c080";
+}
+.clever-icon-zoom-out-buttoncs-font:before {
+  content: "\c079";
+}
+.clever-icon-arrow-1cs-font:before {
+  content: "\c078";
+}
+.clever-icon-arrow-boldcs-font:before {
+  content: "\c077";
+}
+.clever-icon-arrow-lightcs-font:before {
+  content: "\c076";
+}
+.clever-icon-arrow-regularcs-font:before {
+  content: "\c075";
+}
+.clever-icon-cart-1cs-font:before {
+  content: "\c074";
+}
+.clever-icon-cart-2cs-font:before {
+  content: "\c073";
+}
+.clever-icon-cart-3cs-font:before {
+  content: "\c072";
+}
+.clever-icon-cart-4cs-font:before {
+  content: "\c071";
+}
+.clever-icon-cart-5cs-font:before {
+  content: "\c070";
+}
+.clever-icon-cart-6cs-font:before {
+  content: "\c069";
+}
+.clever-icon-chartcs-font:before {
+  content: "\c068";
+}
+.clever-icon-closecs-font:before {
+  content: "\c067";
+}
+.clever-icon-compare-1cs-font:before {
+  content: "\c066";
+}
+.clever-icon-compare-2cs-font:before {
+  content: "\c065";
+}
+.clever-icon-compare-3cs-font:before {
+  content: "\c064";
+}
+.clever-icon-compare-4cs-font:before {
+  content: "\c063";
+}
+.clever-icon-compare-5cs-font:before {
+  content: "\c062";
+}
+.clever-icon-compare-6cs-font:before {
+  content: "\c061";
+}
+.clever-icon-compare-7cs-font:before {
+  content: "\c060";
+}
+.clever-icon-downcs-font:before {
+  content: "\c059";
+}
+.clever-icon-gridcs-font:before {
+  content: "\c058";
+}
+.clever-icon-handcs-font:before {
+  content: "\c057";
+}
+.clever-icon-layout-1cs-font:before {
+  content: "\c056";
+}
+.clever-icon-layoutcs-font:before {
+  content: "\c055";
+}
+.clever-icon-lightcs-font:before {
+  content: "\c054";
+}
+.clever-icon-playcs-font:before {
+  content: "\c053";
+}
+.clever-icon-listcs-font:before {
+  content: "\c052";
+}
+.clever-icon-mail-1cs-font:before {
+  content: "\c051";
+}
+.clever-icon-mail-2cs-font:before {
+  content: "\c050";
+}
+.clever-icon-mail-3cs-font:before {
+  content: "\c049";
+}
+.clever-icon-mail-4cs-font:before {
+  content: "\c048";
+}
+.clever-icon-mail-5cs-font:before {
+  content: "\c047";
+}
+.clever-icon-map-1cs-font:before {
+  content: "\c046";
+}
+.clever-icon-map-2cs-font:before {
+  content: "\c045";
+}
+.clever-icon-map-3cs-font:before {
+  content: "\c044";
+}
+.clever-icon-map-4cs-font:before {
+  content: "\c043";
+}
+.clever-icon-map-5cs-font:before {
+  content: "\c042";
+}
+.clever-icon-menu-1cs-font:before {
+  content: "\c041";
+}
+.clever-icon-menu-2cs-font:before {
+  content: "\c040";
+}
+.clever-icon-grid-3cs-font:before {
+  content: "\c039";
+}
+.clever-icon-grid-4cs-font:before {
+  content: "\c038";
+}
+.clever-icon-menu-3cs-font:before {
+  content: "\c037";
+}
+.clever-icon-grid-2cs-font:before {
+  content: "\c036";
+}
+.clever-icon-minuscs-font:before {
+  content: "\c035";
+}
+.clever-icon-nextcs-font:before {
+  content: "\c034";
+}
+.clever-icon-phone-1cs-font:before {
+  content: "\c033";
+}
+.clever-icon-phone-2cs-font:before {
+  content: "\c032";
+}
+.clever-icon-phone-3cs-font:before {
+  content: "\c031";
+}
+.clever-icon-phone-4cs-font:before {
+  content: "\c030";
+}
+.clever-icon-phone-5cs-font:before {
+  content: "\c029";
+}
+.clever-icon-phone-6cs-font:before {
+  content: "\c028";
+}
+.clever-icon-picturecs-font:before {
+  content: "\c027";
+}
+.clever-icon-pincs-font:before {
+  content: "\c026";
+}
+.clever-icon-pluscs-font:before {
+  content: "\c025";
+}
+.clever-icon-prevcs-font:before {
+  content: "\c024";
+}
+.clever-icon-eye-close-upcs-font:before {
+  content: "\c023";
+}
+.clever-icon-quickview-2cs-font:before {
+  content: "\c022";
+}
+.clever-icon-quickview-3cs-font:before {
+  content: "\c021";
+}
+.clever-icon-quickview-4cs-font:before {
+  content: "\c020";
+}
+.clever-icon-refreshcs-font:before {
+  content: "\c019";
+}
+.clever-icon-youtube-2cs-font:before {
+  content: "\c018";
+}
+.clever-icon-search-1cs-font:before {
+  content: "\c017";
+}
+.clever-icon-search-2cs-font:before {
+  content: "\c016";
+}
+.clever-icon-search-3cs-font:before {
+  content: "\c015";
+}
+.clever-icon-search-4cs-font:before {
+  content: "\c014";
+}
+.clever-icon-search-5cs-font:before {
+  content: "\c013";
+}
+.clever-icon-supportcs-font:before {
+  content: "\c012";
+}
+.clever-icon-tabletcs-font:before {
+  content: "\c011";
+}
+.clever-icon-play-2cs-font:before {
+  content: "\c010";
+}
+.clever-icon-upcs-font:before {
+  content: "\c009";
+}
+.clever-icon-user-1cs-font:before {
+  content: "\c008";
+}
+.clever-icon-user-2cs-font:before {
+  content: "\c007";
+}
+.clever-icon-user-3cs-font:before {
+  content: "\c006";
+}
+.clever-icon-user-4cs-font:before {
+  content: "\c005";
+}
+.clever-icon-user-5cs-font:before {
+  content: "\c004";
+}
+.clever-icon-usercs-font:before {
+  content: "\c003";
+}
+.clever-icon-vectorcs-font:before {
+  content: "\c002";
+}
+.clever-icon-wishlistcs-font:before {
+  content: "\c001";
+}
